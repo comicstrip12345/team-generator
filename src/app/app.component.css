@@ -1,0 +1,72 @@
+section.hero .title {
+  margin-bottom: 2vh;
+}
+
+section.hero .title h1 {
+  font-family: Poppins;
+  font-weight: 900;
+  color: white;
+  font-size: 8vh;
+  margin-top: 10vh;
+}
+
+section.hero .detail .input input {
+  background: none;
+  border: 2px solid white;
+  padding: 2vh;
+  height: 7vh;
+  width: 100%;
+  color: white;
+  font-family: Quicksand;
+}
+
+section.hero .detail .input input:focus {
+  outline: none;
+}
+
+section.hero .detail .input input::placeholder {
+  color: white;
+}
+
+section.hero .detail .button button {
+  background: none;
+  border: 2px solid white;
+  color: white;
+  padding: 1vh;
+  padding-left: 2vh;
+  padding-right: 2vh;
+  border-radius: 1vh;
+  margin-right: 2vh;
+  font-family: Quicksand;
+  font-weight: 700;
+  height: 7vh;
+  transition: 0.2s all ease-in-out;
+}
+
+section.hero .detail .button button:hover {
+  background-color: white;
+  color: #EB5353;
+}
+
+section.hero .detail .memberSection {
+  height: 50vh;
+  overflow-y: auto;
+}
+
+section.hero .detail .memberSection .members {
+  text-align: center;
+}
+
+section.hero .detail .memberSection .members p {
+  border: 1px solid white;
+  overflow-wrap: break-word;
+  color: white;
+  padding: 2vh;
+  border-radius: 1vh;
+  font-family: Quicksand;
+}
+
+section.hero .team {
+  height: 70vh;
+  overflow-y: auto;
+}

@@ -1,0 +1,26 @@
+.teamNum {
+  padding-left: 2vh;
+  padding-right: 2vh;
+  padding-bottom: 2vh;
+}
+
+.teamNum .teamTile {
+  background-color: white;
+  padding: 3vh;
+  border-radius: 2vh;
+}
+
+.teamNum .teamTile h1 {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 3.5vh;
+  margin-bottom: 2vh;
+}
+
+.teamNum .teamTile ul {
+  margin: 0;
+}
+
+.teamNum .teamTile ul li {
+  font-family: Quicksand;
+}

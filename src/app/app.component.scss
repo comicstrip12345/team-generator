@@ -1,0 +1,78 @@
+$headingText: Poppins;
+$contentText: Quicksand;
+
+section.hero{
+    .title{
+        margin-bottom: 2vh;
+        
+        h1{
+            font-family: $headingText;
+            font-weight: 900;
+            color: white;
+            font-size: 8vh;
+            margin-top: 10vh;
+        }
+    }
+    .detail{
+        .input{
+            input{
+                background: none;
+                border: 2px solid white;
+                padding: 2vh;
+                height: 7vh;
+                width: 100%;
+                color: white;
+                font-family: $contentText;
+
+                &:focus{
+                    outline: none;
+                }
+                &::placeholder{
+                    color: white;
+                }
+            }
+        }
+        .button{
+            button{
+                background: none;
+                border: 2px solid white;
+                color: white;
+                padding: 1vh;
+                padding-left: 2vh;
+                padding-right: 2vh;
+                border-radius: 1vh;
+                margin-right: 2vh;
+                font-family: $contentText;
+                font-weight: 700;
+                height: 7vh;
+                transition: 0.2s all ease-in-out;
+
+                &:hover{
+                    background-color: white;
+                    color: #EB5353;
+                }
+            }
+        }
+        .memberSection{
+            height: 50vh;
+            overflow-y: auto;
+
+            .members{
+                text-align:center;
+    
+                p{
+                    border: 1px solid white;
+                    overflow-wrap: break-word;
+                    color: white;
+                    padding: 2vh;
+                    border-radius: 1vh;
+                    font-family: $contentText;
+                }
+            }
+        }
+    }
+    .team{
+        height: 70vh;
+        overflow-y: auto;
+    }
+}
